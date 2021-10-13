@@ -40,10 +40,9 @@ $$
 
 3. **Write down the gradient calculated from the backward pass. You can only use the following variables: $\boldsymbol{x}, \boldsymbol{y}, \boldsymbol{W}^{(1)}, \boldsymbol{b}^{(1)}, \boldsymbol{W}^{(2)}, \boldsymbol{b}^{(2)},\frac{∂l}{∂\boldsymbol{\hat{y}}},\frac{∂\boldsymbol{z}2}{∂\boldsymbol{z}1}, \frac{∂\boldsymbol{\hat{y}}}{∂\boldsymbol{z}_3}$ in your answer.**
 
-| Layer                 | Input                | Output        |
-| :---                  |    :----:            |          ---: |
-| $\text{Linear}_1$     | $\boldsymbol{x}$     |  $\boldsymbol{z}_1 = \boldsymbol{W^{(1)}}\boldsymbol{x} + \boldsymbol{b^{(1)}}$  |
-| $f$                   | $\boldsymbol{z}_1$        | $\boldsymbol{z}_2 = \text{ReLU}(\boldsymbol{z}_1)$     |
-| $\text{Linear}_2$     | $\boldsymbol{z}_2$      | $\boldsymbol{z}_3 = \boldsymbol{W^{(2)}}\boldsymbol{z}_2 + \boldsymbol{b^{(2)}}$   |
-| $g$                   | $\boldsymbol{z}_3$        |   $\boldsymbol{\hat{y}} = \boldsymbol{z}_3$    |
-| Loss                  | $\boldsymbol{\hat{y}}, \boldsymbol{y}$       | $\Vert \boldsymbol{y} - \boldsymbol{\hat{y}} \Vert^2$ |
+| Layer                     | Input                | Output        |
+| :---                      |    :----:            |          ---: |
+| $\boldsymbol{W^{(1)}}$    |      |    |
+| $\boldsymbol{b^{(1)}}$    |        |      |
+| $\boldsymbol{W^{(2)}}$    |      |    |
+| $\boldsymbol{b^{(2)}}$                 |        |     |
